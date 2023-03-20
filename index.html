@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Facebook clone</title>
+    <link rel="stylesheet" href="facebook_clone2.css">
+<body>
+    <header class="header">
+        <div class="header__logo-section">
+          <div class="header__logo-icon">
+            <i class="fab fa-facebook"></i>
+          </div>
+          <div class="header__logo-search">
+            <i class="fas fa-search"></i>
+            <input type="text" placeholder="Search Facebook"> 
+          </div>
+          <div class="header__mobile-button">
+            <i class="fas fa-bars"></i>
+          </div>
+        </div>
+        <div class="header__menu-tabs">
+          <div class="header__menu-tab header__menu-tab--active">
+            <i class="fas fa-home"></i>
+          </div>
+          <div class="header__menu-tab ">
+            <i class="fas fa-flag">
+              <div class="header__notification-bubble">
+                3
+              </div>
+            </i>
+          </div>
+          <div class="header__menu-tab ">
+            <i class="fas fa-tv">
+              <div class="header__notification-bubble">
+                9
+              </div>
+            </i>
+          </div>
+          <div class="header__menu-tab ">
+            <i class="fas fa-store"></i>
+          </div>
+          <div class="header__menu-tab ">
+            <i class="fas fa-users"></i>
+          </div>
+        </div>
+        <div class="header__account">
+          <div class="header__actions">
+            <img src="Image/Kishan.jpeg"
+            class="header__user-img">
+            <span class="header__user-name">Kishan Sah</span>
+
+            <a href="#" class="header__circle-link">
+              <i class="header__link-icon fas fa-plus" ></i>A
+            </a>
+
+            <a href="#" class="header__circle-link">
+              <i class="header__link-icon fab fa-facebook-messenger"></i>B
+            </a>
+            
+            <a href="#" class="header__circle-link">
+              <i class="header__link-icon fas fa-bell"></i>C
+            </a>
+            <a href="#" class="header__circle-link">
+              <i class="header__link-icon fas fa-sort-down"></i>D
+            </a>
+          </div>
+        </div>
+      </header>
+      <!--Right-side short cut option/Start-->
+      <section class="content-area content-area--feed">
+        <section class="sidenav">
+          <div class="sidenav__item">
+            <img src="Image/Kishan.jpeg"
+            class="sidenav__item-img">
+            <span class="sidenav__item-title">
+              Kishan Sah
+            </span>
+          </div>      
+          <div class="sidenav__item">
+            <div class="sidenav__item-icon">
+              <i class="fas fa-user-friends"></i>
+            </div>
+            <span class="sidenav__item-title">
+              Friends
+            </span>
+          </div>    
+          <div class="sidenav__item">
+            <div class="sidenav__item-icon">
+              <i class="fas fa-flag"></i>
+            </div>
+            <span class="sidenav__item-title">
+              Pages
+              <span class="sidenav__item-notification">
+                <div class="sidenav__item-notification-circle"></div>9+ new
+              </span>
+            </span>
+          </div>
+          <div class="sidenav__item">
+            <div class="sidenav__item-icon"> 
+            <!-- sidenav__item-icon--circle-white"> -->
+              <i class="fas fa-users"></i>
+            </div>
+            <span class="sidenav__item-title">
+              Groups
+              <span class="sidenav__item-notification">
+                <div class="sidenav__item-notification-circle"></div>3+ new
+              </span>
+            </span>
+          </div>            
+          <div class="sidenav__item">
+            <div class="sidenav__item-icon">
+              <i class="fas fa-store"></i>
+            </div>
+            <span class="sidenav__item-title">
+              Marketplace
+            </span>
+          </div>
+          <div class="sidenav__item">
+            <div class="sidenav__item-icon sidenav__item-icon--circle">
+              <i class="fas fa-chevron-down"></i>
+            </div>
+            <span class="sidenav__item-title">
+              See More
+            </span>
+          </div> 
+          <!-- right-Side pages/start--> 
+          <div class="sidenav__line"></div>
+        <span class="sidenav__heading-title">
+          Your Shortcuts
+        </span>
+        <div class="sidenav__item">
+          <img src="Image/IT sol.jpg"
+          class="sidenav__item-img">
+          <span class="sidenav__item-title">
+            Technology Solution Pvt. lim
+          </span>
+        </div> 
+        <div class="sidenav__item">
+          <img src="Image/csitworld.png"
+          class="sidenav__item-img">
+          <span class="sidenav__item-title">
+            Bsc.CSIT world
+          </span>
+        </div>   
+        <div class="sidenav__item">
+          <img src="Image/logo.png"
+          class="sidenav__item-img">
+          <span class="sidenav__item-title">
+            CampusNote
+          </span>
+        </div>
+        <div class="sidenav__item">
+          <img src="Image/Kishan.jpeg"
+          class="sidenav__item-img">
+          <span class="sidenav__item-title">
+            WAP
+          </span>
+        </div>      
+        <div class="sidenav__item">
+          <img src="Image/pipra.png"
+          class="sidenav__item-img">
+          <span class="sidenav__item-title">
+            Pipra library pvt lim
+          </span>
+        </div>         
+      </section>  
+      <!--Story upload section start-->
+      <section class="feed">
+        <div class="stories">
+          <div class="stories__video-container">
+            <img class="stories__bg" src="Image/Kishan.jpeg">
+            <div class="stories__title">
+              <div class="stories__new-btn">
+                <i class="fas fa-plus"></i>
+              </div>
+              Create A Story
+            </div>
+          </div>
+          <div class="stories__video-container
+          stories__video-container--plain">
+            <img class="stories__bg" src="Image/Aarti story.jpeg">
+            <div class="stories__title">
+              <img class="stories__user" src="Image/Aarti.jpeg">
+                Aarti Thakur
+            </div>
+          </div>  
+          <div class="stories__video-container
+          stories__video-container--plain">
+            <img class="stories__bg" src="Image/satish story.jpeg">
+            <div class="stories__title">
+              <img class="stories__user" src="Image/Satish.jpeg">
+                Satish singh
+            </div>
+          </div>
+          <div class="stories__video-container
+          stories__video-container--plain">
+            <img class="stories__bg" src="Image/janaki story.jpeg">
+            <div class="stories__title">
+              <img class="stories__user" src="Image/Janaki.jpeg">
+                Janaki Panjiyar  
+            </div>
+          </div> 
+          <div class="stories__video-container
+          stories__video-container--plain">
+            <img class="stories__bg" src="Image/vijay story.jpeg">
+            <div class="stories__title">
+              <img class="stories__user" src="Image/Vijay.jpeg">
+                Vijay Sah
+            </div>
+          </div> 
+          <div class="stories__video-container
+          stories__video-container--plain">
+            <img class="stories__bg" src="Image/Binita story.jpeg">
+            <div class="stories__title">
+              <img class="stories__user" src="Image/Binita.jpeg">
+                Binita Yadav
+            </div>
+            
+          </div> 
+        </div>
+
+        <!--upload status box start-->
+        <div class="feed__box submitpost">
+          <div class="newpost">
+            <img src="Image/Kishan.jpeg"
+            class="newpost__user-img">
+            <input type="text" placeholder="What's on your mind, Kishan?">
+          </div>
+          <div class="hline"></div>
+          <div class="post-types">
+            <div class="post-types__item">
+              <i class="fas fa-video"></i> <span
+              class="post-types__title">Live Video</span>
+            </div>
+            <div class="post-types__item">
+              <i class="fas fa-photo-video"></i> <span class="post-types__title">Photo/Video</span>
+            </div>
+            <div class="post-types__item">
+              <i class="fas fa-laugh-beam"></i> <span class="post-types__title">Feeling/Activity</span>
+            </div>
+          </div>
+        </div>
+        <!--photopost__stats div /start-->
+        <div class="feed__box photopost">
+          <div class="photopost__info">
+            <div class="photopost__left">
+              <img src="Image/aarti.jpeg">
+              <div class="photopost__details">
+                <span class="photopost__name">Aarti Thakur</span>
+                <span class="photopost__date">March 17 at 10:45pm 
+                <i class="fas fa-user-friends"></i></span>
+              </div>
+            </div>
+            <i class="fas fa-ellipsis-h"></i>
+          </div>
+          <div class="photopost__description">
+          Click moment!!!!
+          </div>
+          <div class="photopost__image">
+            <img src="Image/group.jpeg">
+          </div>
+          <div class="photopost__stats">
+            <div class="photopost__stats-emojis">
+              <div class="emoji-circle emoji-circle--blue">
+                <i class="fas fa-thumbs-up"></i>
+              </div>
+              <div class="emoji-circle emoji-circle--red">
+                <i class="fas fa-heart"></i>
+              </div>
+              <div class="emoji-circle emoji-circle--yellow">
+                <i class="fas fa-surprise"></i>
+              </div>
+               <div class="photopost__stats-emoji-reactions">
+                 2.9k
+               </div>
+            </div>
+            <div class="photopost__stats-share">
+              659 comments 34 shares
+            </div>
+            
+<!-- photopost__stats div close              -->
+          </div>
+          <div class="hline"></div>
+          <div class="photopost__actions">
+            <a href="#" class="photopost__link">
+              <i class="fas fa-thumbs-up"></i> Like
+            </a>
+            <a href="#" class="photopost__link">
+              <i class="fas fa-comment"></i> Comment
+            </a>
+            <a href="#" class="photopost__link">
+              <i class="fas fa-share"></i> Share
+            </a>
+          </div>
+          <div class="hline"></div>
+<!-- feed__box photopost div close -->
+        </div>
+      </section>
+     
+        <!-- Side massage slide -->
+    </section>
+    <section class="floatingmsg">
+      <div class="floatingmsg__bubble">
+        <img src="Image/Satish.jpeg">
+        <div class="floatingmsg__notification">1</div>
+      </div>
+      <div class="floatingmsg__bubble">
+        <img src="Image/Janaki.jpeg">
+      </div>
+      <div class="floatingmsg__bubble">
+        <img src="Image/Binita.jpeg">
+        <div class="floatingmsg__notification">3</div>
+      </div>
+      <div class="floatingmsg__bubble">
+        <img src="Image/Vijay.jpeg">
+        <div class="floatingmsg__notification">15</div>
+      </div>
+      <div class="floatingmsg__bubble">
+        <img src="Image/aarti.jpeg">
+        <div class="floatingmsg__notification">2</div>
+      </div>
+      <div class="floatingmsg__bubble">
+        <i class="fas fa-edit"></i>
+    </section>
+  </body>
+</html>
+</body>
+</html>
